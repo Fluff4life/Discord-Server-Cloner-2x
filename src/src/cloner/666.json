@@ -1,0 +1,4435 @@
+{
+    "name": "Pro Gamer672 Community",
+    "verificationLevel": "VERY_HIGH",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "---------Private Chat---------",
+                "permissions": [
+                    {
+                        "roleName": "🛡️ MOD TEAM",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🔨 TRIAL MOD",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "⚔️  Junior 2 Mods",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛠️ JUNIOR MODS",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "👑 | Owner (Host)",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛡️ Owner (Host)",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬︱staff-only",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "---------Private Chat---------",
+                        "topic": "ONLY STAFF",
+                        "permissions": [
+                            {
+                                "roleName": "⚔️  Junior 2 Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🚨 | Moderator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🛠️ JUNIOR MODS",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👑 | Owner (Host)",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🛡️ MOD TEAM",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🔨 TRIAL MOD",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "-----📊 SERVER STATS 📊-----",
+                "permissions": [
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1051648"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "All Members: 333",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "-----📊 SERVER STATS 📊-----",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2097152"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bots: 13",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "-----📊 SERVER STATS 📊-----",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2097152"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "-----------Important-----------",
+                "permissions": [
+                    {
+                        "roleName": "👥 COMMUNITY MEMBERS",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📜︱rules",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "-----------Important-----------",
+                        "topic": "The Server Rules",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66560",
+                                "deny": "70901320579136"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "65536",
+                                "deny": "535529192529"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "📣︱announcements",
+                        "nsfw": false,
+                        "parent": "-----------Important-----------",
+                        "topic": "Announcements",
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "1024",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "65536",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📝︱server-info",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "-----------Important-----------",
+                        "topic": "Everything that if you want to know :)",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66560",
+                                "deny": "515396478976"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "68672"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔨︱server-updates",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "-----------Important-----------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎭︱self-roles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "-----------Important-----------",
+                        "topic": "Self Roles",
+                        "permissions": [
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "274878172160"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎥︱my-new-videos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "-----------Important-----------",
+                        "topic": "Owner's new youtube videos!",
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "131072",
+                                "deny": "3136"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌍︱world-news",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "-----------Important-----------",
+                        "topic": "Here you can learn news from over the world.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "64",
+                                "deny": "274877910016"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌐︱my-social-media",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "-----------Important-----------",
+                        "topic": "Owner's social media!",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "------------General------------",
+                "permissions": [
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "📨︱invites",
+                        "nsfw": false,
+                        "parent": "------------General------------",
+                        "topic": "Invites (Invite Tracker)",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "328768",
+                                "deny": "137438955520"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬︱general-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "------------General------------",
+                        "topic": "General Chat: ENGLISH ONLY - NO LINK PROMOTIONS - NO INNAPPROPRICATE CONTENT",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "carl-bot",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📷︱media",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "------------General------------",
+                        "topic": "ENGLISH ONLY - NO LINKS - That's the official Media Channel, only about social media news and photos. Generally news from the Internet and Social Media. Promotion your videos is not allowed!",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "68608"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "377957253120"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "📈︱level-up",
+                        "nsfw": false,
+                        "parent": "------------General------------",
+                        "topic": "Your level up evolution",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "328768",
+                                "deny": "309237647360"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "👋︱welcome",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "------------General------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66624",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "274878041152"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "😔︱goodbye",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "------------General------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "274878041088"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "😂︱memes-jokes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "------------General------------",
+                        "topic": "Memes & Jokes (NO LINK PROMOTION YOUTUBE VIDEOS)",
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439331392",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖︱general-bot-commads",
+                        "nsfw": false,
+                        "rateLimitPerUser": 10,
+                        "parent": "------------General------------",
+                        "topic": "General bot commands: Commands from every bot that you can have fun is allowed here!",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439284288",
+                                "deny": "377957302272"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📅︱daily-facts",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "------------General------------",
+                        "topic": "Daily Facts to enjoy!",
+                        "permissions": [
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66624",
+                                "deny": "377957124096"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "---------Partnership---------",
+                "permissions": [
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤝︱partnership",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "---------Partnership---------",
+                        "topic": "That's the official Partnership channel",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66624",
+                                "deny": "133120"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Partnership Squad",
+                                "allow": "84992",
+                                "deny": "378225721360"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3136"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "-----------Giveaways-----------",
+                "permissions": [
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "🎉︱giveaways",
+                        "nsfw": false,
+                        "parent": "-----------Giveaways-----------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66624",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "64",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "---------Advertisings---------",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💻︱discord-servers",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Discord servers!",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔼︱youtube",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about YouTuBe videos or YouTuBe channels!",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "163840"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "64",
+                                "deny": "132096"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📱︱tiktok",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about TikTok videos or accounts!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "163840"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "👍🏻︱facebook",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Facebook posts and accounts!",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "163840"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📷︱instagram",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Instagram posts and accounts!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "163840"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔵︱twitter",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Twitter tweets and accounts!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "163840"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🟣︱twitch",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Twitch videos and accounts!",
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "163840"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🟢︱kick-streaming",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Kick (Steaming) !",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300608",
+                                "deny": "103079378944"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🟠︱reddit",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Reddit posts or accounts!",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "163840"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🟢︱spotify",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Spotify!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "377957285888"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔴︱pinterest",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Pinterest content !",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "377957253120"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔵︱tumblr",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Tmblr content!",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "377957253120"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🟡︱snapchat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Only about Snapchat Content!",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "377957285888"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌐︱websites",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Promote only Websites!",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "17472",
+                                "deny": "163840"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔍︱advertise-everything",
+                        "nsfw": false,
+                        "rateLimitPerUser": 21600,
+                        "parent": "---------Advertisings---------",
+                        "topic": "Here you can advertise everything on this channel !",
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "carl-bot",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "----------Looking for----------",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "👥 COMMUNITY MEMBERS",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔎︱looking-for-partners",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "----------Looking for----------",
+                        "topic": "- Make sure your server has a partnership channel \n- NO LINKS",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔎︱looking-for-mods",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "----------Looking for----------",
+                        "topic": "Your server must include positions & staff description ! \n- NO LINKS",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔎︱looking-for-job",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "----------Looking for----------",
+                        "topic": "- You need to tell which job(s) you are looking for and give contact options. You must list your prices, free isn't a price!\n- NO LINKS",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "377957253120"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "-----YouTuBe Creators-----",
+                "permissions": [
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    },
+                    {
+                        "roleName": "👥 COMMUNITY MEMBERS",
+                        "allow": "137440382016",
+                        "deny": "377957253120"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1248256"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎥︱editing-lounge",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "-----YouTuBe Creators-----",
+                        "topic": "A text channel to talk about youtube videos editing work, software, content creation, and share knowledge and contributions!",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "377957269504"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎦︱youtube-streams",
+                        "nsfw": false,
+                        "rateLimitPerUser": 3600,
+                        "parent": "-----YouTuBe Creators-----",
+                        "topic": "Here you can send the links of your youtube live streams!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "377957285888"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💡︱content-ideas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "-----YouTuBe Creators-----",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬︱videos-reaction",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "-----YouTuBe Creators-----",
+                        "topic": "Here you can tell your reaction about a youtube video.",
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "377957253120"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📊︱videos-analytics",
+                        "nsfw": false,
+                        "rateLimitPerUser": 10,
+                        "parent": "-----YouTuBe Creators-----",
+                        "topic": "Here you say the analytics for your YouTuBe videos",
+                        "permissions": [
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "68608"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "377957253120"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🤝︱collabs",
+                        "parent": "-----YouTuBe Creators-----",
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "274877906944"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "412317238336",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎤︱introduction",
+                        "parent": "-----YouTuBe Creators-----",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "274877906944"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "412317238336",
+                                "deny": "131072"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔨︱thumbnail",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "-----YouTuBe Creators-----",
+                        "topic": "Here you can shαre and talk about YouTuBe Thumbnails!",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "377957253120"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "68608"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "---------📞Support🎧---------",
+                "permissions": [
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📩︱tickets",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "---------📞Support🎧---------",
+                        "topic": "Create a ticket if you need help, you can communicate in private conversation with the Owner & Moderators.",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3136"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❔︱questions",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "---------📞Support🎧---------",
+                        "topic": "Here you can do your questions about something",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439284288",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "-----🔊Voice Meetings🔊-----",
+                "permissions": [
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "YouTuBe Meetings 💻",
+                        "bitrate": 96000,
+                        "userLimit": 40,
+                        "parent": "-----🔊Voice Meetings🔊-----",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "3147264",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Owner's second account",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2097152"
+                            },
+                            {
+                                "roleName": "🛡️ Admin",
+                                "allow": "12582912",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "🛡️ MOD TEAM",
+                                "allow": "12582912",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Live Gaming 🎮",
+                        "bitrate": 96000,
+                        "userLimit": 30,
+                        "parent": "-----🔊Voice Meetings🔊-----",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2097152"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "3147264",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🛡️ Admin",
+                                "allow": "12582912",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🛡️ MOD TEAM",
+                                "allow": "12582912",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Owner's second account",
+                                "allow": "0",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Movies & Series 🎥",
+                        "bitrate": 96000,
+                        "userLimit": 99,
+                        "parent": "-----🔊Voice Meetings🔊-----",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "3147264",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🛡️ MOD TEAM",
+                                "allow": "12582912",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2097152"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🛡️ Admin",
+                                "allow": "12582912",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Owner's second account",
+                                "allow": "0",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Music 🎵",
+                        "bitrate": 64000,
+                        "userLimit": 30,
+                        "parent": "-----🔊Voice Meetings🔊-----",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "1049600",
+                                "deny": "180224"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "--------------More+ --------------",
+                "permissions": [
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎮︱general-games",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "--------------More+ --------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "137439316032",
+                                "deny": "148480"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚘︱need-for-speed-games",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "--------------More+ --------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📢︱among-us",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "--------------More+ --------------",
+                        "topic": "Innersloth (Among Us)",
+                        "permissions": [
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔫︱gta-games",
+                        "nsfw": false,
+                        "rateLimitPerUser": 10,
+                        "parent": "--------------More+ --------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "16384"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔢︱counting",
+                        "nsfw": false,
+                        "rateLimitPerUser": 60,
+                        "parent": "--------------More+ --------------",
+                        "topic": "Here you start the Counting :) (It's a fun game)",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439284288",
+                                "deny": "377957302272"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "535529257041"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🐶︱animals-pets",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "--------------More+ --------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📺︱tv-series-movies",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "--------------More+ --------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎵︱music-songs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 10,
+                        "parent": "--------------More+ --------------",
+                        "topic": "Here you are allowed to send videos about music",
+                        "permissions": [
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439333440",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🐼︱turning-red-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "--------------More+ --------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎨︱art",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "--------------More+ --------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⚽︱general-sports",
+                        "nsfw": false,
+                        "rateLimitPerUser": 10,
+                        "parent": "--------------More+ --------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439315008",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💡︱server-ideas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "--------------More+ --------------",
+                        "topic": "Here you can tell your ideas to make this server better.",
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439284288",
+                                "deny": "49152"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "------------Chats💬------------",
+                "permissions": [
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "english-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "181248"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "377957285888"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "italiano︱italian-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "181248"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "español︱spanish-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "181248"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ελληνικά︱greek-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "181248"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439300672",
+                                "deny": "163840"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "日本語︱japanese-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "181248"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "363584",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "中文︱chinese-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "181248"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "русский︱russian-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "181248"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "português︱portuguese-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "64",
+                                "deny": "181248"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "한국어︱korean-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439316032",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "181248"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "français︱french-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "181248"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "deutsch︱german-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 15,
+                        "parent": "------------Chats💬------------",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "181248"
+                            },
+                            {
+                                "roleName": "❌ Unverified",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Muted🔇",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Bots",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👥 COMMUNITY MEMBERS",
+                                "allow": "137439317056",
+                                "deny": "147456"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "-------------Tickets-------------",
+                "permissions": [
+                    {
+                        "roleName": "🛡️ Admin",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🔨 TRIAL MOD",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛡️ Owner (Host)",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "👑 | Owner (Host)",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛠️ JUNIOR MODS",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Owner's second account",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "🛡️ MOD TEAM",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "⚔️  Junior 2 Mods",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2099200"
+                    }
+                ],
+                "children": []
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "verification",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": "This server requires you to verify yourself to get access to other channels, you can simply verify by completing a captcha, click on the verify button to start verification.",
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "⚔️  Junior 2 Mods",
+                        "allow": "1024",
+                        "deny": "10240"
+                    },
+                    {
+                        "roleName": "🔨 TRIAL MOD",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "❌ Unverified",
+                        "allow": "2147552256",
+                        "deny": "64"
+                    },
+                    {
+                        "roleName": "🛠️ JUNIOR MODS",
+                        "allow": "1024",
+                        "deny": "10240"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "11264"
+                    },
+                    {
+                        "roleName": "🛡️ Owner (Host)",
+                        "allow": "2048",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Bots",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "👑 | Owner (Host)",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛡️ Admin",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🚨  Security 🚨",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛡️ MOD TEAM",
+                        "allow": "1024",
+                        "deny": "10240"
+                    },
+                    {
+                        "roleName": "Owner's second account",
+                        "allow": "3072",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "❌︱unverified-chat",
+                "nsfw": false,
+                "rateLimitPerUser": 5,
+                "parent": null,
+                "topic": "Only Unverified users can see and join this chat. Complete your Verify to unlock the other channels!",
+                "permissions": [
+                    {
+                        "roleName": "Bots",
+                        "allow": "1024",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "🛡️ MOD TEAM",
+                        "allow": "134144",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "❌ Unverified",
+                        "allow": "68608",
+                        "deny": "71454029181009"
+                    },
+                    {
+                        "roleName": "🛠️ JUNIOR MODS",
+                        "allow": "134144",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "👑 | Owner (Host)",
+                        "allow": "134144",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "⚔️  Junior 2 Mods",
+                        "allow": "134144",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🔨 TRIAL MOD",
+                        "allow": "134144",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "📗︱moderator-only",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": "Discord System Updates",
+                "permissions": [
+                    {
+                        "roleName": "Bots",
+                        "allow": "1024",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "377957125184"
+                    },
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "❌ Unverified",
+                        "allow": "0",
+                        "deny": "3072"
+                    },
+                    {
+                        "roleName": "🛡️ MOD TEAM",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🔨 TRIAL MOD",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "⚔️  Junior 2 Mods",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛠️ JUNIOR MODS",
+                        "allow": "3072",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "📁︱transcripts",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "🔨 TRIAL MOD",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Tickets Admin",
+                        "allow": "117760",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Tickets Support",
+                        "allow": "68672",
+                        "deny": "49152"
+                    },
+                    {
+                        "roleName": "🛡️ MOD TEAM",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛡️ Admin",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛠️ JUNIOR MODS",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "❌ Unverified",
+                        "allow": "0",
+                        "deny": "3072"
+                    },
+                    {
+                        "roleName": "Bots",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛡️ Owner (Host)",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "117760"
+                    },
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "⚔️  Junior 2 Mods",
+                        "allow": "0",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "🚫︱warns-mutes-and-bans",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "⚔️  Junior 2 Mods",
+                        "allow": "139586767937",
+                        "deny": "395942490128"
+                    },
+                    {
+                        "roleName": "🛡️ MOD TEAM",
+                        "allow": "139586767937",
+                        "deny": "395942490128"
+                    },
+                    {
+                        "roleName": "🔨 TRIAL MOD",
+                        "allow": "139586767937",
+                        "deny": "395942490128"
+                    },
+                    {
+                        "roleName": "Bots",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🛠️ JUNIOR MODS",
+                        "allow": "139586899009",
+                        "deny": "395942359056"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "361314163728"
+                    },
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "❌ Unverified",
+                        "allow": "0",
+                        "deny": "3072"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "✖︱ban-appeals",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": "Ban Appeals (Dyno Discord Bot)",
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "Bots",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "👑 | Owner (Host)",
+                        "allow": "1024",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "🔨︱private-tests",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "Bots",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "515396372544",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Muted🔇",
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "❌ Unverified",
+                        "allow": "0",
+                        "deny": "3072"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "👑 | Owner (Host)",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "1071698660929",
+            "mentionable": false,
+            "position": 84,
+            "isEveryone": false
+        },
+        {
+            "name": "🚨 | Moderator",
+            "color": "#c27c0e",
+            "hoist": true,
+            "permissions": "2171210165831",
+            "mentionable": false,
+            "position": 83,
+            "isEveryone": false
+        },
+        {
+            "name": "Owner's second account",
+            "color": "#ff0300",
+            "hoist": true,
+            "permissions": "28587301797887",
+            "mentionable": false,
+            "position": 82,
+            "isEveryone": false
+        },
+        {
+            "name": "❌ Unverified",
+            "color": "#95a5a6",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 80,
+            "isEveryone": false
+        },
+        {
+            "name": "🛡️ Owner (Host)",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "28587302322175",
+            "mentionable": false,
+            "position": 79,
+            "isEveryone": false
+        },
+        {
+            "name": "🛡️ Admin",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "28587301797887",
+            "mentionable": false,
+            "position": 78,
+            "isEveryone": false
+        },
+        {
+            "name": "🛡️ Senior Mods",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "1099524210694",
+            "mentionable": false,
+            "position": 77,
+            "isEveryone": false
+        },
+        {
+            "name": "🛡️ MOD TEAM",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "2068143533767",
+            "mentionable": false,
+            "position": 76,
+            "isEveryone": false
+        },
+        {
+            "name": "⚔️  Junior 2 Mods",
+            "color": "#ff4d00",
+            "hoist": true,
+            "permissions": "2068135145159",
+            "mentionable": false,
+            "position": 75,
+            "isEveryone": false
+        },
+        {
+            "name": "🛠️ JUNIOR MODS",
+            "color": "#ff6f00",
+            "hoist": true,
+            "permissions": "2068130942659",
+            "mentionable": false,
+            "position": 74,
+            "isEveryone": false
+        },
+        {
+            "name": "🔨 TRIAL MOD",
+            "color": "#ffc300",
+            "hoist": true,
+            "permissions": "2068130942529",
+            "mentionable": false,
+            "position": 73,
+            "isEveryone": false
+        },
+        {
+            "name": "Muted🔇",
+            "color": "#070707",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 72,
+            "isEveryone": false
+        },
+        {
+            "name": "Partnership Squad",
+            "color": "#8ec9a9",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 71,
+            "isEveryone": false
+        },
+        {
+            "name": "Award Staff Member 🏆",
+            "color": "#2ecc71",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 69,
+            "isEveryone": false
+        },
+        {
+            "name": "Tickets Support",
+            "color": "#607d8b",
+            "hoist": false,
+            "permissions": "693741405761",
+            "mentionable": false,
+            "position": 68,
+            "isEveryone": false
+        },
+        {
+            "name": "🎥 75k+ YT Subscribers",
+            "color": "#74ff99",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 66,
+            "isEveryone": false
+        },
+        {
+            "name": "🎥  45k+ YT Subscribers",
+            "color": "#00d165",
+            "hoist": true,
+            "permissions": "67109889",
+            "mentionable": false,
+            "position": 65,
+            "isEveryone": false
+        },
+        {
+            "name": "🎥 15k+ YT Subscribers",
+            "color": "#00a52b",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 64,
+            "isEveryone": false
+        },
+        {
+            "name": "🎥 5k+ YT Subscribers",
+            "color": "#127735",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 63,
+            "isEveryone": false
+        },
+        {
+            "name": "👥 Friends",
+            "color": "#979c9f",
+            "hoist": true,
+            "permissions": "1071698529857",
+            "mentionable": false,
+            "position": 62,
+            "isEveryone": false
+        },
+        {
+            "name": "👥 COMMUNITY MEMBERS",
+            "color": "#0090ff",
+            "hoist": true,
+            "permissions": "968619314753",
+            "mentionable": false,
+            "position": 61,
+            "isEveryone": false
+        },
+        {
+            "name": "🤝 Partners",
+            "color": "#ccff00",
+            "hoist": false,
+            "permissions": "131072",
+            "mentionable": false,
+            "position": 60,
+            "isEveryone": false
+        },
+        {
+            "name": "Partnership Ping",
+            "color": "#63ff00",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 59,
+            "isEveryone": false
+        },
+        {
+            "name": "🚘 NFS World Player",
+            "color": "#006dff",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 58,
+            "isEveryone": false
+        },
+        {
+            "name": "Male",
+            "color": "#5d9cdd",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 57,
+            "isEveryone": false
+        },
+        {
+            "name": "Female",
+            "color": "#d05fd6",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 56,
+            "isEveryone": false
+        },
+        {
+            "name": "Age: 18+",
+            "color": "#87c042",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 55,
+            "isEveryone": false
+        },
+        {
+            "name": "Age: 16-18",
+            "color": "#e78168",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 54,
+            "isEveryone": false
+        },
+        {
+            "name": "Artist 🎨",
+            "color": "#46b6b8",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 53,
+            "isEveryone": false
+        },
+        {
+            "name": "Age: 13-15",
+            "color": "#fa494c",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 52,
+            "isEveryone": false
+        },
+        {
+            "name": "Bots",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": "1071698660929",
+            "mentionable": false,
+            "position": 51,
+            "isEveryone": false
+        },
+        {
+            "name": "Among Us Gamer 📢",
+            "color": "#be452e",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 50,
+            "isEveryone": false
+        },
+        {
+            "name": "📽YouTuBer 🎥",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 49,
+            "isEveryone": false
+        },
+        {
+            "name": "Turning Red fan 🐼",
+            "color": "#ff4600",
+            "hoist": false,
+            "permissions": "693741388353",
+            "mentionable": false,
+            "position": 48,
+            "isEveryone": false
+        },
+        {
+            "name": "Minecraft Gamer 🪓",
+            "color": "#1f8b4c",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 47,
+            "isEveryone": false
+        },
+        {
+            "name": "Beluga Fan 🐱",
+            "color": "#858585",
+            "hoist": false,
+            "permissions": "693741355521",
+            "mentionable": false,
+            "position": 46,
+            "isEveryone": false
+        },
+        {
+            "name": "Asia",
+            "color": "#e67e22",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 45,
+            "isEveryone": false
+        },
+        {
+            "name": "USA",
+            "color": "#a8a8a8",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 44,
+            "isEveryone": false
+        },
+        {
+            "name": "Europe",
+            "color": "#1f8b4c",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 43,
+            "isEveryone": false
+        },
+        {
+            "name": "Oceania",
+            "color": "#50b1f1",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 42,
+            "isEveryone": false
+        },
+        {
+            "name": "Gaming 🎮",
+            "color": "#795a32",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 41,
+            "isEveryone": false
+        },
+        {
+            "name": "Fishing 🎣",
+            "color": "#00d2ff",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 40,
+            "isEveryone": false
+        },
+        {
+            "name": "Cooking 🍽",
+            "color": "#a84300",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 39,
+            "isEveryone": false
+        },
+        {
+            "name": "Uploading Videos 🎥",
+            "color": "#dd4141",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 38,
+            "isEveryone": false
+        },
+        {
+            "name": "Travelling 🌲",
+            "color": "#2ecc71",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 37,
+            "isEveryone": false
+        },
+        {
+            "name": "Swimming 🌊",
+            "color": "#556fe4",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 36,
+            "isEveryone": false
+        },
+        {
+            "name": "Roblox Gamer 🟥",
+            "color": "#ac2b2b",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 35,
+            "isEveryone": false
+        },
+        {
+            "name": "Fortnite Gamer 🔫",
+            "color": "#00e7ff",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 34,
+            "isEveryone": false
+        },
+        {
+            "name": "Need For Speed Gamer🚘",
+            "color": "#3e7975",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "GTA Gamer 🚔",
+            "color": "#499249",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "Fall Guys Gamer 🏃‍♂️",
+            "color": "#c91ac3",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "Hello Neighbor Gamer🏡",
+            "color": "#8fbe27",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "Free Fire Gamer 🪂",
+            "color": "#796624",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "Music/Musician 🎶",
+            "color": "#61b37a",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "Sculpturer 🗻",
+            "color": "#7b8992",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "Camping ⛺",
+            "color": "#318324",
+            "hoist": false,
+            "permissions": "693741404737",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "🗨 Help me",
+            "color": "#80be1d",
+            "hoist": false,
+            "permissions": "693741405761",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "Pings Open",
+            "color": "#4dbbff",
+            "hoist": false,
+            "permissions": "693741405761",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "Pings Closed",
+            "color": "#ff5c5c",
+            "hoist": false,
+            "permissions": "693741405761",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "Tickets Admin",
+            "color": "#607d8b",
+            "hoist": false,
+            "permissions": "693741405761",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "Wednesday - Fan",
+            "color": "#60608a",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "Anime - Fan",
+            "color": "#7c9eff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "Scooby Doo - Fan",
+            "color": "#e67e22",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Stranger Things - Fan",
+            "color": "#607d8b",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "Spongebob - Fan",
+            "color": "#f1c40f",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Phineas and Ferb - Fan",
+            "color": "#e74c3c",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "Raven's Home - Fan",
+            "color": "#992d22",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "Hilda - Fan",
+            "color": "#2ecc71",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "Man vs. Bee - Fan",
+            "color": "#c27c0e",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "Disney Content - Fan",
+            "color": "#1abc9c",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "Netflix Content - Fan",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "Muted",
+            "color": "#818386",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "532163627909120",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1700845213829,
+    "guildID": "787566960065380373",
+    "id": "1177654924742361088",
+    "iconURL": "https://cdn.discordapp.com/icons/787566960065380373/86b1c95f6692b4560c5ec184ca957c23.webp"
+}
